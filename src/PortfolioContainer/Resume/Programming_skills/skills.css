@@ -1,0 +1,29 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.skills ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px 50px;
+}
+
+.skills ul li h5{
+    margin: 0px;
+}
+
+
+
+@media screen and (max-width: 530px){
+    .skills ul{
+        display: block;
+   
+    }
+
+    .skills ul li h5{
+        font-size: 1rem;
+    }
+    
+}

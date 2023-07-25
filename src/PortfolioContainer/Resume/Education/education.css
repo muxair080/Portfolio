@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.education{
+    margin-left: 30px;
+}
+.education ul li::marker{
+        color: #FF5823;
+        font-size: 1.5em;
+}
+.education .institute .heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education .institute .heading .date{
+    background-color: var(--dark-orange);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}

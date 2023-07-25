@@ -1,0 +1,88 @@
+
+.Contact{
+    margin: 20px 50px;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #24263B;
+    color: white;
+    padding: 20px;
+    height: fit-content;
+}
+
+
+
+
+
+.input_field{
+    background-color: rgb(231, 226, 226);
+    border: none;
+}
+
+.leftside .Img{
+    height: 40%;
+    width: 100%;
+    background-image: url('../../assets/Home/mailz.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+}
+
+.rightside{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+  
+    margin-top: 30px;
+    
+}
+
+.rightside .alert-box{
+    color: var(--dark-orange);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.label{
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-form{
+        display: grid;
+        grid-template-columns: 1fr; 
+        /* padding: 5px; */
+
+    }
+    .leftside .Img{
+        height: 60%;
+    }
+    .rightside{
+        display: block;
+        
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Contact{
+        margin: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Contact{
+        margin: 20px 20px;
+    }
+ 
+}

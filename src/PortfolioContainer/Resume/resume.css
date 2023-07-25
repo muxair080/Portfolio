@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sidebar-links{
+    display: flex;
+    background-color: black;
+}
+
+.resume-content{
+    display: block;
+    margin: 0px 50px;
+    padding: 0px 0px 20px 0px;
+}
+.menubar{
+    display: flex;
+    background-color: #24263B;
+    margin-bottom: 40px;
+
+}
+
+.menubar ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    
+}
+.menubar ul  li{
+    font-size: 1rem;
+    font-weight: bold;    
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+.menubar ul  li:hover{
+    /* background-color: rgb(19, 18, 18); */
+    color: #FF5823;
+    border: none;
+    border-bottom: 2px solid #FF5823;
+    /* border-radius: 20px; */
+}
+.resume-content .content{
+    padding: 0px 50px;
+}
+
+@media screen and (max-width: 800px){
+ 
+    .menubar ul li{
+        font-size: 0.8rem;
+    }
+
+    .resume-content{
+    
+        margin: 0px 40px;
+      
+    }
+    .resume-content .content{
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .menubar ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .menubar ul li{
+        font-size: 0.8rem;
+    }
+    .resume-content .content{
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 500px){
+    .resume-content{
+    
+        margin: 0px 20px;
+      
+    }
+}
+
+@media screen and (max-width: 430px){
+    .menubar ul{
+        display: block;
+      
+    }
+    .menubar ul li{
+        font-size: 0.8rem;
+    }
+}

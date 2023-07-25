@@ -1,0 +1,48 @@
+/* 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Navbar-container{
+    display: flex;
+    justify-content:space-between;
+    background-color: #24263B;
+    padding: 10px 130px;
+}
+.Navbar-container .logo{
+    display: flex;
+    align-items: center;
+}
+.Navbar-container .logo h3{   
+    color : white;
+    display: flex;  
+}
+
+.Navbar-container .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.Navbar-container .navbar ul{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.Navbar-container .navbar ul li{
+    padding-left: 10px;
+}
+.Navbar-container .navbar ul li a {
+color: white;
+}
+.Navbar-container .navbar ul li a:hover{
+    color:#FF5823;
+    text-decoration:none;
+}
+ */
+
+

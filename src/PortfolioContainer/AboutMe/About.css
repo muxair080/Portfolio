@@ -1,0 +1,60 @@
+
+.About-container{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: auto; */
+    width: 100vw;
+}
+
+.Aboutme{
+    /* margin: 100px; */
+    margin: 20px 50px;
+
+}
+.about-head{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding: 10px;
+}
+
+.about-head .content h1{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* .about-head h1{
+} */
+.about-head .reason{
+    display: flex;
+    font-size: 1rem;
+    color: darkgray;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.border-img{
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+
+.skills li::marker{
+    color: #FF5823;
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 750px) {
+    .Aboutme{
+        margin: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Aboutme{
+        margin: 20px;
+    }
+}

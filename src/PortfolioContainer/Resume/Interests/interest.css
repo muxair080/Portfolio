@@ -1,0 +1,5 @@
+
+.interests ul li::marker{
+    color: #FF5823;
+    font-size: 1.5em;
+}
